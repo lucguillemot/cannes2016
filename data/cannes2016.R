@@ -4,21 +4,50 @@ library(dplyr)
 
 # CANNES
 ca <- read.csv("ca.csv")
-ca2 <- rev(ca[3:30])
-ca3 <- cbind(ca[2], ca2)
+ca <- ca[1:13]
+ca.cc <- ca[!!rowSums(abs(ca[-c(1:2)])),]
+ca2 <- rev(ca.cc[4:13])
+ca3 <- cbind(ca.cc$PAYS, ca2)
+colnames(ca3)[1] <- "PAYS"
 ca4 <- melt(ca3)
 ca5 <- toJSON(ca4, pretty = TRUE)
-
 ca6 <- as.data.frame(t(ca2))
 
 years <- as.data.frame(row.names(ca6))
-years[, 2] <- as.character(c(1989:2016))
+years[, 2] <- as.character(c(2006:2015))
 
-write.csv(row.names(ca6), "years.csv", row.names = FALSE)
+write.csv(as.character(years[, 1]), "years.csv", row.names = FALSE)
 write.csv(years, "years-correspondance.csv", row.names = FALSE)
-write.csv(ca$PAYS, "pays.csv", row.names = FALSE)
+write.csv(ca.cc$PAYS, "cannes_countries.csv", row.names = FALSE)
 write.csv(cannes, "cannes.csv", row.names = FALSE)
 write(ca5, "cannes.json")
+
+# CANNES - UN CERTAIN REGARD
+ucr <- read.csv("ucr.csv")
+ucr.cc <- ucr[!!rowSums(abs(ucr[-c(1:2)])),]
+ucr2 <- rev(ucr.cc[3:12])
+ucr3 <- cbind(ucr.cc$PAYS, ucr2)
+colnames(ucr3)[1] <- "PAYS"
+ucr4 <- melt(ucr3)
+ucr5 <- toJSON(ucr4, pretty = TRUE)
+write(ucr5, "uncertainregard.json")
+
+ucr6 <- as.data.frame(t(ucr2))
+
+years_ucr <- as.data.frame(row.names(ucr6))
+years_ucr[, 2] <- as.character(c(2006:2015))
+
+write.csv(row.names(ucr6), "years_ucr.csv", row.names = FALSE)
+write.csv(years_ucr, "years_ucr-correspondance.csv", row.names = FALSE)
+write.csv(ucr.cc$PAYS, "ucr_countries.csv", row.names = FALSE)
+
+# SYNTHESE
+
+synt <- read.csv("synthese.csv")
+synt.cc <- synt[!!rowSums(abs(synt[-c(1:2)])),]
+synt2 <- melt(synt)
+syntJS <- toJSON(synt2, pretty = T)
+write(syntJS, "synthese.json")
 
 # BERLIN
 be <- read.csv("be.csv")
@@ -52,21 +81,6 @@ lo4 <- melt(lo3)
 lo5 <- toJSON(lo4, pretty = TRUE)
 write(lo5, "locarno.json")
 
-# CANNES - UN CERTAIN REGARD
-ucr <- read.csv("ucr.csv")
-ucr2 <- rev(ucr[3:12])
-ucr3 <- cbind(ucr[2], ucr2)
-ucr4 <- melt(ucr3)
-ucr5 <- toJSON(ucr4, pretty = TRUE)
-write(ucr5, "uncertainregard.json")
-
-ucr6 <- as.data.frame(t(ucr2))
-
-years_ucr <- as.data.frame(row.names(ucr6))
-years_ucr[, 2] <- as.character(c(2006:2015))
-
-write.csv(row.names(ucr6), "years_ucr.csv", row.names = FALSE)
-write.csv(years_ucr, "years_ucr-correspondance.csv", row.names = FALSE)
 
 # CANNES - REGROUPEMENTS
 ca_reg <- read.csv("ca2.csv")
@@ -75,3 +89,4 @@ ca_reg3 <- cbind(ca_reg[2], ca_reg2)
 ca_reg4 <- melt(ca_reg3)
 ca_reg5 <- toJSON(ca_reg4, pretty = TRUE)
 write(ca_reg5, "cannes2.json")
+write.csv(ca_reg$PAYS, "pays_reg.csv", row.names = FALSE)
