@@ -1,0 +1,47 @@
+.top-buffer { margin-top:30px; }
+
+path.state {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: .3px;
+}
+
+path.county {
+  fill:none;
+}
+
+.land-boundary {
+  fill:none;
+  stroke: #555;
+  stroke-width: .5px;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+rect.bar_del, rect.bar_votes {
+  stroke: rgba(0, 30, 64, .9);
+  stroke-width:0;
+}
+
+rect.stacked {
+  opacity: .5;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.legend_label, .legend_opacity_value, .legend_opacity_label {
+  font: 7px sans-serif;
+}
+
+.legend_opacity_value {
+  text-anchor: middle;
+}
+
+.legend_label {
+  text-anchor: end;
+}
