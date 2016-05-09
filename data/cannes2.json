@@ -1,0 +1,3362 @@
+[
+  {
+    "PAYS": "France",
+    "variable": "CA89",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA89",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA89",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA89",
+    "value": 3
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA89",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA89",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA89",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA89",
+    "value": 2
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA89",
+    "value": 2
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA89",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA89",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA89",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA90",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA90",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA90",
+    "value": 2
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA90",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA90",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA90",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA91",
+    "value": 4
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA91",
+    "value": 5
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA91",
+    "value": 3
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA91",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA91",
+    "value": 2
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA91",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA91",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA91",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA91",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA92",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA92",
+    "value": 5
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA92",
+    "value": 3
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA92",
+    "value": 2
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA92",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA92",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA93",
+    "value": 4
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA93",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA93",
+    "value": 4
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA93",
+    "value": 3
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA93",
+    "value": 3
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA93",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA93",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA94",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA94",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA94",
+    "value": 4
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA94",
+    "value": 2
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA94",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA94",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA94",
+    "value": 2
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA94",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA95",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA95",
+    "value": 6
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA95",
+    "value": 4
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA95",
+    "value": 4
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA95",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA95",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA96",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA96",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA96",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA96",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA96",
+    "value": 3
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA96",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA96",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA97",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA97",
+    "value": 5
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA97",
+    "value": 3
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA97",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA97",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA97",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA98",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA98",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA98",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA98",
+    "value": 1
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA98",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA98",
+    "value": 2
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA99",
+    "value": 4
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA99",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA99",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA99",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA99",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA00",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA00",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA00",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA00",
+    "value": 2
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA00",
+    "value": 2
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA00",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA00",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA00",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA01",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA01",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA01",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA01",
+    "value": 3
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA01",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA01",
+    "value": 2
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA01",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA01",
+    "value": 1
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA01",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA01",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA01",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA01",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA02",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA02",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA02",
+    "value": 4
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA02",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA02",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA02",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA03",
+    "value": 6
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA03",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA03",
+    "value": 2
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA03",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA03",
+    "value": 1
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA04",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA04",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA04",
+    "value": 2
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA04",
+    "value": 2
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA04",
+    "value": 2
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA04",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA04",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA05",
+    "value": 2
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA05",
+    "value": 5
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA05",
+    "value": 2
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA05",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA05",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA06",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA06",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA06",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA06",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA06",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA06",
+    "value": 2
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA06",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA06",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA06",
+    "value": 1
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA06",
+    "value": 3
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA06",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA06",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA07",
+    "value": 4
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA07",
+    "value": 5
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA07",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA07",
+    "value": 2
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA07",
+    "value": 2
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA07",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA07",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA07",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA07",
+    "value": 4
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA07",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA07",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA08",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA08",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA08",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA08",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA08",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA08",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA08",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA08",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA08",
+    "value": 2
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA08",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA08",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA08",
+    "value": 2
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA08",
+    "value": 2
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA09",
+    "value": 4
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA09",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA09",
+    "value": 2
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA09",
+    "value": 2
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA09",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA09",
+    "value": 2
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA09",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA10",
+    "value": 6
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA10",
+    "value": 3
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA10",
+    "value": 2
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA10",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA10",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA11",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA11",
+    "value": 2
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA11",
+    "value": 2
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA11",
+    "value": 1
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA11",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA11",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA12",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA12",
+    "value": 6
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA12",
+    "value": 2
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA12",
+    "value": 2
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA12",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA12",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA12",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA13",
+    "value": 6
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA13",
+    "value": 4
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA13",
+    "value": 2
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA13",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA13",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA14",
+    "value": 3
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA14",
+    "value": 2
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA14",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA14",
+    "value": 3
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA14",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA14",
+    "value": 1
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA14",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA15",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA15",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA15",
+    "value": 1
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA15",
+    "value": 3
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA15",
+    "value": 1
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA15",
+    "value": 1
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA15",
+    "value": 1
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA15",
+    "value": 1
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA15",
+    "value": 3
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA15",
+    "value": 0
+  },
+  {
+    "PAYS": "France",
+    "variable": "CA16",
+    "value": 5
+  },
+  {
+    "PAYS": "Etats-Unis",
+    "variable": "CA16",
+    "value": 3
+  },
+  {
+    "PAYS": "Royaume-Uni",
+    "variable": "CA16",
+    "value": 2
+  },
+  {
+    "PAYS": "Italie",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Japon",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Chine",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Russie",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Canada",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Corée du Sud",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Taiwan",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Danemark",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Mexique",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Belgique",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Espagne",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Australie",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Autriche",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Israel",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Allemagne",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Argentine",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Iran",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Europe",
+    "variable": "CA16",
+    "value": 2
+  },
+  {
+    "PAYS": "Afrique",
+    "variable": "CA16",
+    "value": 0
+  },
+  {
+    "PAYS": "Asie",
+    "variable": "CA16",
+    "value": 1
+  },
+  {
+    "PAYS": "Amérique Latine",
+    "variable": "CA16",
+    "value": 1
+  }
+]

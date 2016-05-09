@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Festivaux</title>
+    <!-- JQuery -->
+    <script src="layout/jquery-2.2.0.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="layout/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="layout/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!-- d3 and plugins -->
+    <script src="layout/d3-master/d3.min.js"></script>
+    
+    <style>
+      .axis path,
+      .axis line {
+          fill: none;
+          stroke: #f5f5f5;
+          shape-rendering: crispEdges;
+      }
+       
+      .axis text {
+          font-family: sans-serif;
+          font-size: 7.5px;
+      }
+
+      .axis path.domain {stroke: none;}
+
+      .circle {
+        fill-opacity: .5;
+        stroke-opacity: 1;
+      }
+
+      .circle.cannes {fill: #E5A40B; stroke: #E5A40B;}
+      .circle.ucr {fill: #01488F; stroke: #01488F;}
+      .circle.legend {fill: #222; stroke: #222;}
+
+      .circle.berlin {fill: #EE1C30;}
+      .circle.venise {fill: #029437;}
+      .circle.moscou {fill: #EB3924;}
+      .circle.locarno {fill: #DABA0F;}
+      
+
+      </style>
+  </head>
+  <body>
+
+  <div class="container title">
+    <h1></h1>
+  </div>
+
+  <div class="container">
+    <div class="row top-buffer">
+      <div class="col-xs-3">
+        <h4><center>Cannes - Compétition</center></h4>
+        <div id="cannes"></div>
+        <div id="legend"></div>
+      </div>
+      <div class="col-xs-3">
+        <h4><center>Cannes - Un certain regard</center></h4>
+        <div id="ucr"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+  </div> <!-- END OF CONTAINER -->
+
+  <script>
+    var cannes_countries = ["France", "Etats-Unis", "Royaume-Uni", "Italie", "Japon", "Chine", "Russie", "Canada", "Corée du Sud", "Taiwan", "Danemark", "Mexique", "Belgique", "Espagne", "Australie", "Autriche", "Israel", "Allemagne", "Argentine", "Iran", "Portugal", "Turquie", "Brésil", "Hong-Kong", "Roumanie", "Finlande", "Grèce", "Hongrie", "Serbie", "Nouvelle-Zélande", "Philippines", "Algérie", "Egypte", "Mauritanie", "Norvège", "Pays-Bas", "Singapour", "Suisse", "Tchad", "Ukraine"];
+    var ucr_countries = ["France", "Etats-Unis", "Corée du Sud", "Roumanie", "Australie", "Chine", "Mexique", "Russie", "Allemagne", "Argentine", "Inde", "Japon", "Thailande", "Brésil", "Canada", "Iran", "Italie", "Royaume-Uni", "Colombie", "Espagne", "Hongrie", "Israel", "Norvège", "Philippines", "Afrique du Sud", "Chili", "Grèce", "Liban", "Palestine", "Pays-Bas", "Portugal", "Suède", "Autriche", "Belgique", "Bosnie", "Cambodge", "Côte d'Ivoire", "Croatie", "Cuba", "Estonie", "Ethiopie", "Hong-Kong", "Indonésie", "Irak", "Islande", "Kazakhstan", "Lituanie", "Maroc", "Paraguay", "Perou", "Pologne", "Sénégal", "Singapour", "Suisse", "Taiwan", "Uruguay"];
+
+    var cannes_domain = ["CA06", "CA07", "CA08", "CA09", "CA10", "CA11", "CA12", "CA13", "CA14", "CA15"];
+    var cannes_mapper = {"CA06": "2006", "CA07": "2007", "CA08": "2008", "CA09": "2009", "CA10": "2010", "CA11": "2011", "CA12": "2012", "CA13": "2013", "CA14": "2014", "CA15": "2015"};
+    var ucr_domain = ["UCR06", "UCR07", "UCR08", "UCR09", "UCR10", "UCR11", "UCR12", "UCR13", "UCR14", "UCR15"];
+    var ucr_mapper = {"UCR06": "2006", "UCR07": "2007", "UCR08": "2008", "UCR09": "2009", "UCR10": "2010", "UCR11": "2011", "UCR12": "2012", "UCR13": "2013", "UCR14": "2014", "UCR15": "2015"};
+
+    var synt_countries = ["Afrique du Sud", "Albanie", "Algérie", "Allemagne", "Argentine", "Arménie", "Australie", "Autriche", "Azerbaidjan", "Bangladesh", "Belarus", "Belgique", "Bolivie", "Bosnie", "Brésil", "Bulgarie", "Burkina Faso", "Cambodge", "Canada", "Chili", "Chine", "Colombie", "Corée du Sud", "Côte d'Ivoire", "Croatie", "Cuba", "Danemark", "Egypte", "Espagne", "Estonie", "Etats-Unis", "Ethiopie", "Finlande", "France", "Géorgie", "Grèce", "Guatemala", "Guinée", "Haiti", "Hong-Kong", "Hongrie", "Inde", "Indonésie", "Irak", "Iran", "Irlande", "Islande", "Israel", "Italie", "Japon", "Kazakhstan", "Kenya", "Kirghizistan", "Lettonie", "Liban", "Lituanie", "Luxembourg", "Macédoine", "Malaisie", "Mali", "Maroc", "Mauritanie", "Mexique", "Norvège", "Nouvelle-Zélande", "Ouzbékistan", "Pakistan", "Palestine", "Parguay", "Pays-Bas", "Perou", "Philippines", "Pologne", "Portugal", "République Tchèque", "Roumanie", "Royaume-Uni", "Russie", "Sénégal", "Serbie", "Singapour", "Slovaquie", "Slovénie", "Sri Lanka", "Suède", "Suisse", "Taiwan", "Tchad", "Thailande", "Tunisie", "Turquie", "Ukraine", "Uruguay", "Venezuela", "Vietnam"];
+
+    /*
+    <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Synthèse</h2>
+        <div id="synthese"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+    <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Berlinale</h2>
+        <div id="berlin"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+    <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Mostra de Venise</h2>
+        <div id="venise"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+    <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Moscou</h2>
+        <div id="moscou"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+     <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Locarno</h2>
+        <div id="locarno"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+    
+    <div class="row top-buffer">
+      <div class="col-xs-12">
+        <h2>Cannes - Regroupements</h2>
+        <div id="cannes2"></div>
+      </div>
+    </div> <!-- END OF ROW -->
+
+    var berlin_domain = ["BE89", "BE90", "BE91", "BE92", "BE93", "BE94", "BE95", "BE96", "BE97", "BE98", "BE99", "BE00", "BE01", "BE02", "BE03", "BE04", "BE05", "BE06", "BE07", "BE08", "BE09", "BE10", "BE11", "BE12", "BE13", "BE14", "BE15", "BE16"];
+    var berlin_mapper = {"BE89": "1989", "BE90": "1990", "BE91": "1991", "BE92": "1992", "BE93": "1993", "BE94": "1994", "BE95": "1995", "BE96": "1996", "BE97": "1997", "BE98": "1998", "BE99": "1999", "BE00": "2000", "BE01": "2001", "BE02": "2002", "BE03": "2003", "BE04": "2004", "BE05": "2005", "BE06": "2006", "BE07": "2007", "BE08": "2008", "BE09": "2009", "BE10": "2010", "BE11": "2011", "BE12": "2012", "BE13": "2013", "BE14": "2014", "BE15": "2015", "BE16": "2016"};
+    var venise_domain = ["VE89", "VE90", "VE91", "VE92", "VE93", "VE94", "VE95", "VE96", "VE97", "VE98", "VE99", "VE00", "VE01", "VE02", "VE03", "VE04", "VE05", "VE06", "VE07", "VE08", "VE09", "VE10", "VE11", "VE12", "VE13", "VE14", "VE15", "VE16"];
+    var venise_mapper = {"VE89": "1989", "VE90": "1990", "VE91": "1991", "VE92": "1992", "VE93": "1993", "VE94": "1994", "VE95": "1995", "VE96": "1996", "VE97": "1997", "VE98": "1998", "VE99": "1999", "VE00": "2000", "VE01": "2001", "VE02": "2002", "VE03": "2003", "VE04": "2004", "VE05": "2005", "VE06": "2006", "VE07": "2007", "VE08": "2008", "VE09": "2009", "VE10": "2010", "VE11": "2011", "VE12": "2012", "VE13": "2013", "VE14": "2014", "VE15": "2015", "VE16": "2016"};
+    var moscou_domain = ["MO89", "MO90", "MO91", "MO92", "MO93", "MO94", "MO95", "MO96", "MO97", "MO98", "MO99", "MO00", "MO01", "MO02", "MO03", "MO04", "MO05", "MO06", "MO07", "MO08", "MO09", "MO10", "MO11", "MO12", "MO13", "MO14", "MO15", "MO16"];
+    var moscou_mapper = {"MO89": "1989", "MO90": "1990", "MO91": "1991", "MO92": "1992", "MO93": "1993", "MO94": "1994", "MO95": "1995", "MO96": "1996", "MO97": "1997", "MO98": "1998", "MO99": "1999", "MO00": "2000", "MO01": "2001", "MO02": "2002", "MO03": "2003", "MO04": "2004", "MO05": "2005", "MO06": "2006", "MO07": "2007", "MO08": "2008", "MO09": "2009", "MO10": "2010", "MO11": "2011", "MO12": "2012", "MO13": "2013", "MO14": "2014", "MO15": "2015", "MO16": "2016"};
+    var locarno_domain = ["LO89", "LO90", "LO91", "LO92", "LO93", "LO94", "LO95", "LO96", "LO97", "LO98", "LO99", "LO00", "LO01", "LO02", "LO03", "LO04", "LO05", "LO06", "LO07", "LO08", "LO09", "LO10", "LO11", "LO12", "LO13", "LO14", "LO15", "LO16"];
+    var locarno_mapper = {"LO89": "1989", "LO90": "1990", "LO91": "1991", "LO92": "1992", "LO93": "1993", "LO94": "1994", "LO95": "1995", "LO96": "1996", "LO97": "1997", "LO98": "1998", "LO99": "1999", "LO00": "2000", "LO01": "2001", "LO02": "2002", "LO03": "2003", "LO04": "2004", "LO05": "2005", "LO06": "2006", "LO07": "2007", "LO08": "2008", "LO09": "2009", "LO10": "2010", "LO11": "2011", "LO12": "2012", "LO13": "2013", "LO14": "2014", "LO15": "2015", "LO16": "2016"};*/
+    
+
+
+  function festivals(id, data, festidomain, domain_mapper, countries, festival, width, height) {
+
+    var m = {top: 20, right: 20, bottom: 20, left: 70},
+        w = width - m.left - m.right,
+        h = height - m.top - m.bottom;
+
+    var svg = d3.select(id).append("svg")
+        .attr("width", w + m.left + m.right)
+        .attr("height", h + m.top + m.bottom)
+          .append("g")
+        .attr("transform", "translate(" + m.left + "," + m.top + ")");
+
+    r = d3.scale.linear()
+            .domain([0, 12])
+            .range([0, 15]);
+
+    var x = d3.scale.ordinal()
+              .domain(festidomain)
+              .rangePoints([0, w]);
+
+    var y = d3.scale.ordinal()
+            .domain(countries)
+            .rangeRoundPoints([0, h]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("top")
+        .tickPadding(12)
+        .innerTickSize(-h)
+        .outerTickSize(0)
+        //.outerTickSize(0)
+        .tickFormat(function (d) {
+          return domain_mapper[d]
+        });
+
+    var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .tickPadding(10)
+          .innerTickSize(-w)
+          .outerTickSize(0);
+
+    svg.append("g")
+        .attr("class", "axis")
+        //.attr("transform", "translate(0, "+(h)+")")
+        .call(xAxis);
+     
+    svg.append("g")
+        .attr("class", "axis")
+        //.attr("transform", "translate("+(m.left)+", 0)")
+        .call(yAxis);
+
+    svg.selectAll("circle")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("class", function(){ return "circle "+festival; })
+        .attr("cx", function (d) { return x(d.variable); })
+        .attr("cy", function (d) { return y(d.PAYS); })
+        .attr("r", function (d) { return r(d.value); })
+        .on("mouseover", function(d){
+          console.log(d.value+" films");
+        });
+  } // festivals()
+  
+  d3.json("data/cannes.json", function(data){
+    festivals("#cannes", data, cannes_domain, cannes_mapper, cannes_countries, "cannes", 300, 547);
+  });
+
+  d3.json("data/uncertainregard.json", function(data){
+    festivals("#ucr", data, cannes_domain, cannes_mapper, ucr_countries, "ucr", 300, 756);
+  });
+
+  // LEGEND
+  var m = {top: 20, right: 20, bottom: 20, left: 70},
+        w = 300 - m.left - m.right,
+        h = 150 - m.top - m.bottom;
+  
+  r = d3.scale.linear()
+            .domain([0, 12])
+            .range([0, 15]);
+
+  svg = d3.select("#legend").append("svg")
+          .attr("width", w + m.left + m.right)
+        .attr("height", h + m.top + m.bottom)
+          .append("g")
+        .attr("transform", "translate(" + m.left + "," + m.top + ")");
+  
+  svg.append("text")
+      .attr("x", 0)
+      .attr("y", 0)
+      .text("Nombre de films sélectionnés :");
+
+  svg.append("circle")
+      .attr("class", "circle legend")
+      .attr("cx", 10)
+      .attr("cy", 15)
+      .attr("r", function(){ return r(1); });
+  svg.append("text")
+      .attr("x", 30)
+      .attr("y", 20)
+      .text("1 film");
+
+  svg.append("circle")
+      .attr("class", "circle legend")
+      .attr("cx", 10)
+      .attr("cy", 35)
+      .attr("r", function(){ return r(6); });
+  svg.append("text")
+      .attr("x", 30)
+      .attr("y", 40)
+      .text("6 films");
+
+
+
+  function bertin(id, data, countries, festival, width, height) {
+
+    var m = {top: 20, right: 20, bottom: 20, left: 100},
+        w = width - m.left - m.right,
+        h = height - m.top - m.bottom;
+
+    var svg = d3.select(id).append("svg")
+        .attr("width", w + m.left + m.right)
+        .attr("height", h + m.top + m.bottom)
+          .append("g")
+        .attr("transform", "translate(" + m.left + "," + m.top + ")");
+
+    var x = d3.scale.ordinal()
+              .domain(["CANNES", "BERLIN", "VENISE", "LOCARNO", "MOSCOU", "UCR"])
+              .rangeBands([0, w]);
+
+    var y = d3.scale.ordinal()
+            .domain(countries)
+            .rangeBands([0, h]);
+
+    var hS = d3.scale.linear()
+            .domain([0, 50])
+            .range([0, 15]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("top")
+        .tickPadding(10)
+        .innerTickSize(-h);
+        /*.tickFormat(function (d) {
+          return domain_mapper[d]
+        });*/
+
+    var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .tickPadding(10)
+          .innerTickSize(-w)
+          .outerTickSize(0);
+
+    function customAxis(g) {
+      g.selectAll("text")
+          //.attr("x", 4)
+          .attr("dy", -3);
+    }
+
+    svg.append("g")
+        .attr("class", "axis")
+        //.attr("transform", "translate(0, "+(h)+")")
+        .call(xAxis);
+     
+    svg.append("g")
+        .attr("class", "axis")
+        //.attr("transform", "translate("+(m.left)+", 0)")
+        .call(yAxis)
+        .call(customAxis);
+
+    svg.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "rectangle")
+        .attr("x", function (d) { return x(d.variable); })
+        .attr("y", function (d) { return y(d.PAYS)+5; })
+        .attr("width", 35)
+        .attr("height", function(d){ return (y(d.PAYS)+5)-hS(d.value); });
+  } // festivals()
+
+  d3.json("data/synthese.json", function(data){
+    bertin("#synthese", data, synt_countries, "syntheses", 420, 1000);
+  });
+
+  /*d3.json("data/berlin.json", function(data){
+    festivals("#berlin", data, berlin_domain, berlin_mapper, countries, "berlin", 800, 1000);
+  });
+
+  d3.json("data/venise.json", function(data){
+    festivals("#venise", data, venise_domain, venise_mapper, countries, "venise", 800, 1000);
+  });
+
+  d3.json("data/moscou.json", function(data){
+    festivals("#moscou", data, moscou_domain, moscou_mapper, countries, "moscou", 800, 1000);
+  });
+
+  d3.json("data/locarno.json", function(data){
+    festivals("#locarno", data, locarno_domain, locarno_mapper, countries, "locarno", 800, 1000);
+  });
+
+  
+
+  d3.json("data/cannes2.json", function(data){
+    festivals("#cannes2", data, cannes_domain, cannes_mapper, countries_reg, "cannes", 800, 350);
+  });*/
+
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="layout/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
